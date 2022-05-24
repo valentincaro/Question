@@ -1,0 +1,22 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Question : MonoBehaviour
+{
+    public string       text    = null;
+    public List<Option> options = null;
+}
+
+
+
+
+
+
+//ACA ARRANCA OPTION.CS
+
+ [System.Serializable]
+public class Option 
+{
+    public string text = null;
+    public bool correct = false;
+}
